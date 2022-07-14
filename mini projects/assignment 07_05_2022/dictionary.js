@@ -17,7 +17,6 @@ var a= { "PFB" :"Please Find Below" ,
         case 'PFA':
         console.log(a['PFA']);
         break;
-        
         default:
         console.log("****");
         break;

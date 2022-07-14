@@ -1,0 +1,36 @@
+[
+    {
+        "cust_name": "Sachin",
+        "mobile_num": "9876543210",
+        "account_no": "A98765SA",
+        "Balance": 1000,
+        "LastTxndatetime": "2022-07-11",
+        "last3txns": [
+            "D_500",
+            "C_200",
+            "D_100"
+        ]
+    },
+    {
+        "cust_name": "Dhoni",
+        "mobile_num": "9944003210",
+        "account_no": "A99440DH",
+        "Balance": 1000,
+        "LastTxndatetime": "2022-07-10",
+        "last3txns": [
+            "D_500.00",
+            "C_200.00",
+            "D_100.00"
+        ]
+    },
+    {
+        "cust_name": "santosh",
+        "mobile_num": "987654321",
+        "account_no": "A3M98765sa",
+        "balance": "1900",
+        "LastTxndatetime": "2022-07-13 15:34:00",
+        "last3txns": [
+            "C_1900"
+        ]
+    }
+]

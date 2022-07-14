@@ -1,0 +1,49 @@
+[
+    {
+        "cust_name": "Sachin",
+        "mobile_num": "9876543210",
+        "account_no": "A98765SA",
+        "Balance": 900,
+        "LastTxndatetime": "2022-07-14 18:06:17",
+        "last3txns": [
+            "D_45",
+            "D_45",
+            "D_10"
+        ]
+    },
+    {
+        "cust_name": "Dhoni",
+        "mobile_num": "9944003210",
+        "account_no": "A99440DH",
+        "Balance": 10,
+        "LastTxndatetime": "2022-07-14 18:41:38",
+        "last3txns": [
+            "C_10",
+            "C_NaN",
+            "C_10"
+        ]
+    },
+    {
+        "cust_name": "santosh",
+        "mobile_num": "987654321",
+        "account_no": "A3M98765sa",
+        "Balance": 900,
+        "LastTxndatetime": "2022-07-14 18:17:03",
+        "last3txns": [
+            "D_67",
+            "D_500",
+            "D_100"
+        ]
+    },
+    {
+        "cust_name": "sanjay",
+        "mobile_num": "132332333232",
+        "account_no": "A4M13233sa",
+        "Balance": 2990.19,
+        "LastTxndatetime": "2022-07-14 18:41:38",
+        "last3txns": [
+            "C_3000.19",
+            "D_10"
+        ]
+    }
+]
