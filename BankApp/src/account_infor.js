@@ -1,5 +1,6 @@
 
 const prompt = require("prompt-sync")({ sigint: true });
+const { clear } = require("console");
 var fs=require("fs");
 const { get } = require("stack-trace");
 const { empty } = require("statuses");
@@ -31,26 +32,31 @@ function writeAccInfo(data){
 //}
 //writeAccInfo(acc);
 
+function options () {
 
 console.log ("Enter your choice ?\n click 1 for creat account\n click 2 for deposit\n click 3 for withdraw\n click 4 for check balance\n click 5 for transfer to another account\n click 6 for exit\n\n");
-var choice = prompt("");
+ var  choice= prompt("");
+
 
 switch (choice) {
-        case "1": creatAccount();
+        case "1": creatAccount(); 
+        options();
         break;
         case "2":  console.log('Enter a Account num for deposit \n')
         var AccountNum = prompt(" ");
-        console.log('Enter an deposit amount \n')
-        var depositAmount = prompt(" ");
-        depositAmount(); 
+       console.log('Enter an deposit amount \n')
+        var amount= prompt(" ");
+        depositAmount(AccountNum,amount); 
+        options();
         break;
         case "3":  
         console.log("Enter the account num to WithDraw");
         var AccountNum = prompt(" ");
         console.log("Enter the amount");
         var amount= prompt(" ");
-        
+    
         WithDrawAmount(AccountNum,amount);
+        options();
         break; 
         case "4": 
             console.log("Enter the your account num");
@@ -64,14 +70,17 @@ switch (choice) {
             else{
                 console.log(" Failed to get balance")
             }
-
+            options();    
         break; 
         case "5": transfer();
+        options(); 
         
         break; 
         case "6": exit(); 
         break;
 }
+}
+
 function current_date_time() {
     var date = new Date();
     var Str =
@@ -84,29 +93,43 @@ function current_date_time() {
         + ":" + ("00" + date.getSeconds()).slice(-2);
         return Str;
 }
+
 function creatAccount() 
 {
     console.log('Enter your name:\n')
      var name = prompt("");
     console.log('Enter your mobileNum:\n') ;
     var mobileNum = prompt("");
-    console.log('mininum bal 1000 enter the credit amount:\n') ;
+   console.log('Enter the  deposit amount mininum  is 1000 \n') ;
     var balance= prompt();
-   var balanceAmount=parseFloat(balance);
+    var balanceAmount=parseFloat(balance);
+    var bval = balancevalidation(balanceAmount)
+if (bval){
+// console.log(bval+"!!!")
    var LastTxndatetime = current_date_time()
    var last3txns=["C_"+ balance];
     var acc_obj= getAccountInfo()
    var ln =acc_obj.length+1
     var acc_no= "A"+ln+"M"+mobileNum.substring(0,5)+name.substring(0,2);
-    var a_obj= {"cust_name":name,"mobile_num":mobileNum,"account_no":acc_no,"balanceAmount":balanceAmount,"LastTxndatetime":LastTxndatetime,"last3txns":last3txns}
+    var a_obj= {"cust_name":name,"mobile_num":mobileNum,"account_no":acc_no,"BalanceAmount":bval,"LastTxndatetime":LastTxndatetime,"last3txns":last3txns}
     acc_obj.push(a_obj)
     
    writeAccInfo(acc_obj);
 }
+else{
+    console.log("Invalid minimun balance Account cannot be created ");
+   // options()
+}
+}
 
  function depositAmount(AccountNum,amount){
+  if (isNaN(amount)  ){
+    console.log("Given amount is not a number ")
+return -1;
+}
+
+   var  depositAmount=parseFloat(amount);
     
-    depositAmount=parseFloat(amount);
     var acc_obj= getAccountInfo()
     for (var i=0;i<=acc_obj.length-1;i++){
         if(acc_obj[i].account_no==AccountNum){
@@ -124,9 +147,18 @@ function creatAccount()
 }
  }
 function WithDrawAmount(AccountNum,amount){
+    if (isNaN(amount)  ){
+        console.log("Given amount is not a number ")
+    return -1;
+    }
+    amount= parseFloat(amount);
     var acc_obj= getAccountInfo()
     for(i=0;i<=acc_obj.length-1;i++){
         if(acc_obj[i].account_no==AccountNum){
+            if(acc_obj[i].Balance<amount){
+                console.log("you dont have that much amount")
+                return -1
+            }
             acc_obj[i].Balance -=amount;
             acc_obj[i].last3txns.push("D_"+ amount)
             acc_obj[i].LastTxndatetime= current_date_time();
@@ -137,12 +169,13 @@ function WithDrawAmount(AccountNum,amount){
         }
     }if(i==(acc_obj.length-1)+1){
         console.log("Invalid account num")
+        return -1
     }
  }
 
-    function balance(accountNum,acc_obj){
+    function balance(accountNum){
       
-        
+        var acc_obj=getAccountInfo()
         for(i=0;i<=acc_obj.length-1;i++){
         
             if(acc_obj[i].account_no==accountNum){
@@ -180,10 +213,9 @@ function transfer(){
     var ToAccNo= prompt(" ");
     console.log("Transfer amount")
     var TrAmt= prompt(" ");
-   
+   var acc_obj= getAccountInfo()
     if (isAccountExist(FrmAccNo,acc_obj) && isAccountExist(ToAccNo,acc_obj) )
     {
-        console.log("****");
 
      var bamt =  balance(FrmAccNo,acc_obj)
 
@@ -197,12 +229,34 @@ function transfer(){
 
       }
 
-    }
-    
+    }else{console.log("From or To Accnum is invalid");
 }
     
-  
+} 
 function exit(){
     exit;
 }
+
+
+  
+function balancevalidation(balance) {
+  if (balance >=1000 ) {
+    console.log("balance :"+balance);
+    return balance;
+  } else {
+console.log("Invalid amount. enter amount > 1000 ");
+var corr_amt = prompt(" ");
+corr_amt=parseFloat(corr_amt);
+if (corr_amt >=1000){
+    return corr_amt;
+}
+  
+  }
+  
+  
+}
+
+options();
+
+
 
