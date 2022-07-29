@@ -70,14 +70,26 @@ var patients=[
 // var result = _.map(patients, function(value,key) { return value.visits.NPI });
 // console.log(result);
 
-var result =_.filter(patients, function(value) { return value.visits[0].NPI=="1003802901"});
+// var result =_.filter(patients, function(value) { return value.visits[0].NPI=="1003802901"});
+// console.log(result);
+
+// var result = _.find(patients, function(num) { return num.visits[0].NPI=="1983928"});
+// console.log(result);
+
+var result = _.findWhere(patients, { "DOB": "05-02-1992" });
+console.log(result);
+
+var result = _.findWhere(patients, {"": "1003802901" });
 console.log(result);
 
 
-// var result = _.filter(patients, function(value) { return value.indexOf.Firstname});
-//     console.log(result);
+// var student1 = _.omit(patients, 'name','visits');
+// console.log(student1);
 
 
+
+// var result = _.findWhere(patients, { "MRN": "1461922" });
+// console.log(result);
 
 
 

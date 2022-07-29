@@ -1,0 +1,142 @@
+[
+    {
+        "MRN": "1482923",
+        "NPI": "1003802901",
+        "ServiceDate": "05/23/2022",
+        "Visit Reason": "Anesthesia",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1983928",
+        "NPI": "1013955343",
+        "ServiceDate": "06-12-2022",
+        "Visit Reason": "Fever",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1982627",
+        "NPI": "1003864232",
+        "ServiceDate": "07-10-2022",
+        "Visit Reason": "cancer",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1582928",
+        "NPI": "1013955343",
+        "ServiceDate": "07-10-2022",
+        "Visit Reason": "chickenpox",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1461922",
+        "NPI": "1003802901",
+        "ServiceDate": "02-02-2022",
+        "Visit Reason": "Office consultation",
+        "code": "99242",
+        "code system": "CPT",
+        "value set name": "Qualifying Encounter During Measurement Period",
+        "value set oid": "2.16.840.1.113883.3.464.1003.101.12.1008"
+    },
+    {
+        "MRN": "1183028",
+        "NPI": "1013955343",
+        "ServiceDate": "03/29/2022",
+        "Visit Reason": "Unlisted preventive medicine service",
+        "code": "99429",
+        "code system": "CPT",
+        "value set name": "Encounter-Influenza",
+        "value set oid": "2.16.840.1.113883.3.526.3.1252"
+    },
+    {
+        "MRN": "1282921",
+        "NPI": "1003864232",
+        "ServiceDate": "01-03-2022",
+        "Visit Reason": "spinal cord",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1372928",
+        "NPI": "1003802901",
+        "ServiceDate": "02/18/2020",
+        "Visit Reason": "Heartattack",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1482923",
+        "NPI": "1003802901",
+        "ServiceDate": "03/19/2020",
+        "Visit Reason": "Anesthesia",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1982627",
+        "NPI": "1013955343",
+        "ServiceDate": "02/14/2022",
+        "Visit Reason": "spinal cord",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1582928",
+        "NPI": "1003864232",
+        "ServiceDate": "08-03-2020",
+        "Visit Reason": "Fever",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1461922",
+        "NPI": "1013955343",
+        "ServiceDate": "01/22/2022",
+        "Visit Reason": "Postoperative follow-up visit (procedure)",
+        "code": "439740005",
+        "code system": "SNOMEDCT",
+        "value set name": "Influenza Vaccine",
+        "value set oid": "2.16.840.1.113883.3.526.3.1256"
+    },
+    {
+        "MRN": "1459218",
+        "NPI": "1003864232",
+        "ServiceDate": "04/13/2022",
+        "Visit Reason": "chickenpox",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    },
+    {
+        "MRN": "1282921",
+        "NPI": "1003802901",
+        "ServiceDate": "06/18/2020",
+        "Visit Reason": "stroke",
+        "code": "",
+        "code system": "",
+        "value set name": "",
+        "value set oid": ""
+    }
+]

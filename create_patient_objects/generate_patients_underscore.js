@@ -23,7 +23,6 @@ csv()
    readWriteFile(".\\data\\csv_source\\Patients.csv",".\\data\\underscore_json\\patients.json")
  // readWriteFile(".\\data\\csv_source\\provider.csv",".\\data\\json_output\\provider.json")
    readWriteFile(".\\data\\csv_source\\visitInfo.csv",".\\data\\underscore_json\\visit.json")
-  // C:\GITLAB\js.learning\create_patient_objects\data\underscore_json
 
 function readPatient(path){
     var text = fs.readFileSync(path,'utf8')

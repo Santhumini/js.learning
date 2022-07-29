@@ -1,0 +1,15 @@
+﻿MRN,NPI,ServiceDate,Visit Reason,code,code system,value set name,value set oid
+1482923,1003802901,05/23/2022,Anesthesia,,,,
+1983928,1013955343,06-12-2022,Fever,,,,
+1982627,1003864232,07-10-2022,cancer,,,,
+1582928,1013955343,07-10-2022,chickenpox,,,,
+1461922,1003802901,02-02-2022,Office consultation,99242,CPT,Qualifying Encounter During Measurement Period,2.16.840.1.113883.3.464.1003.101.12.1008
+1183028,1013955343,03/29/2022,Unlisted preventive medicine service,99429,CPT,Encounter-Influenza,2.16.840.1.113883.3.526.3.1252
+1282921,1003864232,01-03-2022,spinal cord,,,,
+1372928,1003802901,02/18/2020,Heartattack,,,,
+1482923,1003802901,03/19/2020,Anesthesia,,,,
+1982627,1013955343,02/14/2022,spinal cord,,,,
+1582928,1003864232,08-03-2020,Fever,,,,
+1461922,1013955343,01/22/2022,Postoperative follow-up visit (procedure),439740005,SNOMEDCT,Influenza Vaccine,2.16.840.1.113883.3.526.3.1256
+1459218,1003864232,04/13/2022,chickenpox,,,,
+1282921,1003802901,06/18/2020,stroke,,,,
