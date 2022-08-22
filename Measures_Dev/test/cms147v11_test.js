@@ -137,7 +137,7 @@ var gender_count = _.countBy(updated_student_list, "gender")
 
 
 sum = _.reduce(updated_student_list, function(memo, num) { return memo + ((num.marks > 85 ) ? 1 : 0)}, 0);
-// console.log(sum);
+console.log(sum);
 
 final=[];
 _.each(updated_student_list, function(value) { 

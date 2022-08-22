@@ -1,0 +1,349 @@
+{
+  "_id": "62e7e116b3c02532ac876320",
+  "languages": [
+    "eng"
+  ],
+  "search_keys": [
+    "santhosh san",
+    "Boyd, Alex",
+    "62e3ccadd17af703587cfd51_cMTST2",
+    "62e3ccadd17af703587cfd51"
+  ],
+  "groups": [],
+  "effective_time": 1659096357,
+  "title": null,
+  "first": "santhosh",
+  "last": "san",
+  "birthdate":1639895655,
+  "gender": "M",
+  "medical_record_number": "4567",
+  "entity_id": "62e3ccadd17af703587cfd51_cMTST2",
+  "race": {
+    "code": "2054-5",
+    "code_set": "CDC-RE"
+  },
+  "ethnicity": {
+    "code": "2135-2",
+    "code_set": "CDC-RE"
+  },
+  "practice_id": "62c675ebb3c0255b69f8557d",
+  "updated_at": "2022-08-01T14:20:06.598Z",
+  "created_at": "2022-08-01T14:20:06.268Z",
+  "encounters": [
+    {
+      "_id": "62e7e116b3c02532ac87630a",
+      "codes": {
+        "SNOMEDCT": [
+          "225967005"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "Encounter",
+      "start_time": 1646326800,
+      "end_time": 1646330400,
+      "authorDateTime": null,
+      "description": "Office Visit",
+      "admitType": null,
+      "dischargeTime": 1646330400,
+      "dischargeDisposition": null,
+      "admitTime": 1646326800,
+      "oid": "2.16.840.1.113883.3.600.1.1525",
+      "cda_identifier": {
+        "_id": "62e7e116b3c02532ac87630b",
+        "root": "1.3.6.1.4.1.115",
+        "extension": "62e3ccadd17af703587cfd40"
+      }
+    },
+    {
+      "_id": "62e7e116b3c02532ac87630c",
+      "codes": {
+        "CPT": [
+          "99213"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "Encounter",
+      "start_time": 1671728400,
+      "end_time": 1671732000,
+      "authorDateTime": null,
+      "description": "Office Visit",
+      "admitType": null,
+      "dischargeTime": 1671732000,
+      "dischargeDisposition": null,
+      "admitTime": 1671728400,
+      "oid": "2.16.840.1.113883.3.560.1.79",
+      "cda_identifier": {
+        "_id": "62e7e116b3c02532ac87630d",
+        "root": "1.3.6.1.4.1.115",
+        "extension": "62e3ccadd17af703587cfd41"
+      }
+    }
+  ],
+  "vital_signs": [
+    {
+      "_id": "62930ff8bdca224fdad71b76",
+      "codes": {
+        "LOINC": [
+          "39156-5"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "LabResult",
+      "time": 1649761622,
+      "description": "BMI ratio",
+      "referenceRange": null,
+      "negationInd": false,
+      "oid": "",
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      " cda_identifier": {
+        "_id": "62930ff8bdca224fdad71b27",
+        "root": "8e31a3ed-4649-4454-a306-b9917e013b0e",
+        "extension": null
+      },
+      "values": [
+        {
+          "_id": "62930ff8bdca224fdad71b28",
+          "_type": "PhysicalQuantityResultValue",
+          "scalar": "30.3",
+          "units": "kg/m2"
+        }
+      ]
+    },
+	{
+      "_id": "62930ff8bdca224fdad71b89",
+      "codes": {
+        "LOINC": [
+          "39156-5"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "LabResult",
+      "time":1652353622 ,
+      "description": "BMI ratio",
+      "referenceRange": null,
+      "negationInd": false,
+      "oid": "",
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      " cda_identifier": {
+        "_id": "62930ff8bdca224fdad71b27",
+        "root": "8e31a3ed-4649-4454-a306-b9917e013b0e",
+        "extension": null
+      },
+      "values": [
+        {
+          "_id": "62930ff8bdca224fdad71b28",
+          "_type": "PhysicalQuantityResultValue",
+          "scalar": "17.3",
+          "units": "kg/m2"
+        }
+      ]
+    },
+	{
+      "_id": "62930ff8bdca224fdad71b90",
+      "codes": {
+        "LOINC": [
+          "1000-1"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "LabResult",
+      "time":1652353622 ,
+      "description": "Temperature",
+      "referenceRange": null,
+      "negationInd": false,
+      "oid": "",
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      " cda_identifier": {
+        "_id": "62930ff8bdca224fdad71b27",
+        "root": "8e31a3ed-4649-4454-a306-b9917e013b0e",
+        "extension": null
+      },
+      "values": [
+        {
+          "_id": "62930ff8bdca224fdad71b28",
+          "_type": "PhysicalQuantityResultValue",
+          "scalar": "198",
+          "units": "F"
+        }
+      ]
+    }
+  ],
+  
+"procedures" : [
+        {
+            "_id" : "5e746baa19b34ae080339b0b",
+            "codes" : {
+                "CPT" : [
+                    "43644"
+                ]
+            },
+            "mood_code" : "EVN",
+            "_type" : "Procedure",
+            "start_time" : 1519689600,
+            "end_time" : 1519689600,
+            "description" : "",
+            "anatomical_target" : null,
+            "oid" : "2.16.840.1.113883.3.600.1.1525",
+            "status_code" : {
+                "HL7 ActStatus" : [
+                    "ordered",
+                    "performed"
+                ]
+            },
+            "cda_identifier" : {
+                "_id" :"5e746baa19b34ae080339b0c",
+                "root" : "1.3.6.1.4.1.115",
+                "extension" : "59ca3a3a63623904b4b9337a"
+            }
+        },
+		 {
+            "_id" : "6e746baa19b34ae080339b0b",
+            "codes" : {
+                "CPT" : [
+                    "43644"
+                ]
+            },
+            "mood_code" : "EVN",
+            "_type" : "Procedure",
+            "start_time" : 1654925821,
+            "end_time" : 1654925821,
+            "description" : "Follow Up for Below Normal BMI",
+            "anatomical_target" : null,
+            "oid" : "2.16.840.1.113883.3.600.1.1528",
+            "status_code" : {
+                "HL7 ActStatus" : [
+                    "ordered",
+                    "performed"
+                ]
+            },
+            "cda_identifier" : {
+                "_id" :"5e746baa19b34ae080339b0c",
+                "root" : "1.3.6.1.4.1.115",
+                "extension" : "59ca3a3a63623904b4b9337a"
+            }
+        },
+		{
+            "_id" : "5e746baa19b34ae080339b0b",
+            "codes" : {
+                "CPT" : [
+                    "1234"
+                ]
+            },
+            "mood_code" : "EVN",
+            "_type" : "Procedure",
+            "start_time" : 1519689600,
+            "end_time" : 1519689600,
+            "description" : "",
+            "anatomical_target" : null,
+            "oid" : "",
+            "status_code" : {
+                "HL7 ActStatus" : [
+                    "ordered",
+                    "performed"
+                ]
+            },
+            "cda_identifier" : {
+                "_id" :"5e746baa19b34ae080339b0c",
+                "root" : "1.3.6.1.4.1.115",
+                "extension" : "59ca3a3a63623904b4b9337a"
+            }
+        }
+    ],
+
+    "conditions": [
+    {
+      "_id": "62e7e11cb3c02532ac87640b",
+      "codes": {
+        "ICD-10-CM": [
+          "T78.08XD"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "Condition",
+      "start_time": 1658212455,
+      "end_time": null,
+      "authorDateTime": 1646327700,
+      "description": null,
+      "oid": "2.16.840.1.113883.3.526.3.1253",
+      "cda_identifier": {
+        "_id": "62e7e11cb3c02532ac87640c",
+        "root": "1.3.6.1.4.1.115",
+        "extension": "62e3cca0d17af703587cfada"
+      }
+    }
+  ],
+  
+  "insurance_providers": [
+    {
+      "_id": "62e7e116b3c02532ac87630e",
+      "codes": {
+        "SOP": [
+          "349"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "InsuranceProvider",
+      "start_time": 1639008000,
+      "end_time": null,
+      "authorDateTime": null,
+      "oid": "2.16.840.1.113883.3.560.1.405"
+    }
+  ],
+  "addresses": [
+    {
+      "_id": "62e7e116b3c02532ac87630f",
+      "street": [
+        "18757 Elwin Parkway Ports"
+      ],
+      "use": "HP",
+      "city": "Swaniawskiton",
+      "state": "MA",
+      "zip": "02684",
+      "country": "US"
+    }
+  ],
+  "telecoms": [
+    {
+      "_id": "62e7e116b3c02532ac876310",
+      "value": "tel:(972) 203-4102",
+      "use": "HP"
+    }
+  ],
+  "provider_performances": [
+    {
+      "_id": "62e7e116b3c02532ac87631a",
+      "end_date": null,
+      "provider_id": "62e7e116b3c02532ac876312",
+      "start_date": null
+    },
+    {
+      "_id": "62e7e116b3c02532ac87631b",
+      "start_date": null,
+      "end_date": null,
+      "provider_id": "5790a76d58989a5b18000002"
+    },
+    {
+      "_id": "62e7e116b3c02532ac87631c",
+      "start_date": null,
+      "end_date": null,
+      "provider_id": "62c675ebb3c0255b69f8557f"
+    }
+  ],
+  "measures": {
+    "hqmf_ids": [
+      "2C928082-7871-00DE-0178-890C248E04FE"
+    ]
+  }
+}

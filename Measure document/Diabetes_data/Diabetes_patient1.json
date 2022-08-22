@@ -4,7 +4,7 @@
     "eng"
   ],
   "search_keys": [
-    "sai pallavi",
+    "Alex Boyd",
     "Boyd, Alex",
     "62e3ccadd17af703587cfd51_cMTST2",
     "62e3ccadd17af703587cfd51"
@@ -12,11 +12,11 @@
   "groups": [],
   "effective_time": 1659096357,
   "title": null,
-  "first": "sai",
-  "last": "pallavi",
-  "birthdate": 1659096357,
+  "first": "Alex",
+  "last": "Boyd",
+  "birthdate": 950964943,
   "gender": "M",
-  "medical_record_number": "62e3ccadd17af703587cfd51_pid_62c675ebb3c0255b69f8557d",
+  "medical_record_number": "1234",
   "entity_id": "62e3ccadd17af703587cfd51_cMTST2",
   "race": {
     "code": "2054-5",
@@ -47,7 +47,7 @@
       "dischargeTime": 1646330400,
       "dischargeDisposition": null,
       "admitTime": 1646326800,
-      "oid": "2.16.840.1.113883.3.560.1.79",
+      "oid": "2.16.840.1.113883.3.464.1003.113.12.1074",
       "cda_identifier": {
         "_id": "62e7e116b3c02532ac87630b",
         "root": "1.3.6.1.4.1.115",
@@ -79,6 +79,103 @@
       }
     }
   ],
+  "conditions" :[
+        {
+            "_id" : "61da1bf01c08ec82171ec871",
+            "codes" : {
+                "SNOMED-CT" : [
+                    "214437002"
+                ]
+            },
+            "mood_code" : "EVN",
+            "_type" : "Condition",
+            "start_time" :1645511816,
+            "end_time" : null,
+            "description" : "Fatty liver",
+            "oid" : "2.16.840.1.113883.3.464.1003.113.12.1074",
+            "status_code" : {
+                "SNOMED-CT" : [
+                    "55561003"
+                ],
+                "HL7 ActStatus" : [
+                    "active"
+                ]
+            },
+            "cda_identifier" : {
+                "_id" :"61da1bf01c08ec82171ec872",
+                "root" : "1.3.6.1.4.1.115",
+                "extension" : "57876a17636239049cb2d846"
+            }
+        },
+        {
+            "_id" :"61da1bf01c08ec82171ec898",
+            "codes" : {
+                "ICD-9-CM" : [
+                    "728.87"
+                ]
+            },
+            "mood_code" : "EVN",
+            "_type" : "Condition",
+            "start_time" :1433808000,
+            "end_time" : null,
+            "description" : null,
+            "oid" : "2.16.840.1.113883.3.464.1003.113.12.1074",
+            "status_code" : {
+                "SNOMED-CT" : [
+                    "55561003"
+                ],
+                "HL7 ActStatus" : [
+                    "active"
+                ]
+            },
+            "cda_identifier" : {
+                "_id" : "61da1bf01c08ec82171ec899",
+                "root" : "1.3.6.1.4.1.115",
+                "extension" : "57876a17636239049cb2d846"
+            }
+        }
+	],
+
+  "results" : [
+        {
+            "_id" : "61d9e60b409e708bde427878",
+            "codes" : {
+                "LOINC":[
+                    "4548-4"
+                ]
+            },
+            "mood_code" : "EVN",
+            "_type" : "LabResult",
+            "time" : 1645511816,
+            "description" : "LDL CHOL",
+            "interpretation" : {
+                "code" : "H",
+                "codeSystem" : "HITSP C80 Observation Status"
+            },
+            "referenceRange" : "",
+            "oid" : "2.16.840.1.113883.3.464.1003.198.12.1013",
+            "status_code" : {
+                "HL7 ActStatus" : [
+                    "performed",
+                    "ordered"
+                ]
+            },
+            "cda_identifier" : {
+                "_id" : "61d9e60b409e708bde427879",
+                "root" : null,
+                "extension" : null
+            },
+            "values" : [
+                {
+                    "_id" :"61d9e60b409e708bde42787a",
+                    "_type" : "PhysicalQuantityResultValue",
+                    "scalar" : "11",
+                    "units" : ""
+                }
+            ]
+        }
+   ],
+  
   "insurance_providers": [
     {
       "_id": "62e7e116b3c02532ac87630e",

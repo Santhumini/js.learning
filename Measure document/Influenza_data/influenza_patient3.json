@@ -1,10 +1,10 @@
 {
-  "_id": "62e7e116b3c02532ac876309",
+  "_id": "62e7e116b3c02532ac876312",
   "languages": [
     "eng"
   ],
   "search_keys": [
-    "sai pallavi",
+    "muthu kumar",
     "Boyd, Alex",
     "62e3ccadd17af703587cfd51_cMTST2",
     "62e3ccadd17af703587cfd51"
@@ -12,11 +12,11 @@
   "groups": [],
   "effective_time": 1659096357,
   "title": null,
-  "first": "sai",
-  "last": "pallavi",
-  "birthdate": 1659096357,
+  "first": "muthu",
+  "last": "kumar",
+  "birthdate": 1639895655,
   "gender": "M",
-  "medical_record_number": "62e3ccadd17af703587cfd51_pid_62c675ebb3c0255b69f8557d",
+  "medical_record_number": "3456",
   "entity_id": "62e3ccadd17af703587cfd51_cMTST2",
   "race": {
     "code": "2054-5",
@@ -33,21 +33,21 @@
     {
       "_id": "62e7e116b3c02532ac87630a",
       "codes": {
-        "CPT": [
-          "99203"
+        "SNOMEDCT": [
+          "225967005"
         ]
       },
       "mood_code": "EVN",
       "_type": "Encounter",
-      "start_time": 1646326800,
-      "end_time": 1646330400,
+      "start_time": 1655527607,
+      "end_time": 1655527607,
       "authorDateTime": null,
       "description": "Office Visit",
       "admitType": null,
       "dischargeTime": 1646330400,
       "dischargeDisposition": null,
       "admitTime": 1646326800,
-      "oid": "2.16.840.1.113883.3.560.1.79",
+      "oid": "2.16.840.1.113883.3.600.1.1525",
       "cda_identifier": {
         "_id": "62e7e116b3c02532ac87630b",
         "root": "1.3.6.1.4.1.115",
@@ -58,20 +58,20 @@
       "_id": "62e7e116b3c02532ac87630c",
       "codes": {
         "CPT": [
-          "99213"
+          "43644"
         ]
       },
       "mood_code": "EVN",
       "_type": "Encounter",
-      "start_time": 1671728400,
-      "end_time": 1671732000,
+      "start_time": 1652849207,
+      "end_time": 1652849207,
       "authorDateTime": null,
       "description": "Office Visit",
       "admitType": null,
       "dischargeTime": 1671732000,
       "dischargeDisposition": null,
       "admitTime": 1671728400,
-      "oid": "2.16.840.1.113883.3.560.1.79",
+      "oid": "2.16.840.1.113762.1.4.1047.502",
       "cda_identifier": {
         "_id": "62e7e116b3c02532ac87630d",
         "root": "1.3.6.1.4.1.115",
@@ -79,6 +79,96 @@
       }
     }
   ],
+  "vital_signs": [
+    {
+      "_id": "62930ff8bdca224fdad71b86",
+      "codes": {
+        "LOINC": [
+          "39156-5"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "LabResult",
+      "time": 1649502422,
+      "description": "BMI ratio",
+      "referenceRange": null,
+      "negationInd": false,
+      "oid": "",
+      "status_code": {
+        "HL7 ActStatus": [
+          "performed"
+        ]
+      },
+      " cda_identifier": {
+        "_id": "62930ff8bdca224fdad71b27",
+        "root": "8e31a3ed-4649-4454-a306-b9917e013b0e",
+        "extension": null
+      },
+      "values": [
+        {
+          "_id": "62930ff8bdca224fdad71b28",
+          "_type": "PhysicalQuantityResultValue",
+          "scalar": "30.3",
+          "units": "kg/m2"
+        }
+      ]
+    }
+  ],
+  "procedures" : [
+        {
+            "_id" : "5e746baa19b34ae080339b0b",
+            "codes" : {
+                "CPT" : [
+                    "43645"
+                ]
+            },
+            "mood_code" : "EVN",
+            "_type" : "Procedure",
+            "start_time" : 1647504000,
+            "end_time" : 1647504000,
+            "description" : "",
+            "anatomical_target" : null,
+            "oid" : "2.16.840.1.113883.3.600.1.1525",
+            "status_code" : {
+                "HL7 ActStatus" : [
+                    "ordered",
+                    "performed"
+                ]
+            },
+            "cda_identifier" : {
+                "_id" :"5e746baa19b34ae080339b0c",
+                "root" : "1.3.6.1.4.1.115",
+                "extension" : "59ca3a3a63623904b4b9337a"
+            }
+        }
+    ],  
+	"immunizations" : [
+        {
+            "_id" : "61d9e60b409e708bde427871",
+            "codes" : {
+                "CVX" : [
+                    "141"
+                ]
+            },
+            "mood_code" : "EVN",
+            "_type" : "Immunization",
+            "start_time" : 1658212455,
+            "end_time" : 1658212455,
+            "description" : "INFLUENZA VACCINE",
+            "negationInd" : false,
+            "oid" : "2.16.840.1.113883.3.526.3.1254",
+            "status_code" : {
+                "HL7 ActStatus" : [
+                    "administered"
+                ]
+            },
+            "cda_identifier" : {
+                "_id" : "61d9e60b409e708bde427872",
+                "root" : null,
+                "extension" : null
+            }
+        }
+    ],
   "insurance_providers": [
     {
       "_id": "62e7e116b3c02532ac87630e",

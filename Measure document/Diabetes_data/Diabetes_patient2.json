@@ -1,0 +1,220 @@
+{
+  "_id": "62e7e11cb3c02532ac87640a",
+  "languages": [
+    "eng"
+  ],
+  "search_keys": [
+    "Diana Arnold",
+    "Arnold, Diana",
+    "62e3cca0d17af703587cfae9_cMTST2",
+    "62e3cca0d17af703587cfae9"
+  ],
+  "groups": [],
+  "effective_time": 1659096368,
+  "title": null,
+  "first": "Diana",
+  "last": "Arnold",
+  "birthdate": -469105457,
+  "gender": "F",
+  "medical_record_number": "2345",
+  "entity_id": "62e3cca0d17af703587cfae9_cMTST2",
+  "race": {
+    "code": "2028-9",
+    "code_set": "CDC-RE"
+  },
+  "ethnicity": {
+    "code": "2186-5",
+    "code_set": "CDC-RE"
+  },
+  "practice_id": "62c675ebb3c0255b69f8557d",
+  "updated_at": "2022-08-01T14:20:13.091Z",
+  "created_at": "2022-08-01T14:20:12.720Z",
+  "conditions": [
+    {
+      "_id": "62e7e11cb3c02532ac87640b",
+      "codes": {
+        "SNOMED-CT": [
+          "699218005"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "Condition",
+      "start_time": 1647504000,
+      "end_time": null,
+      "authorDateTime": 1646327700,
+      "description": null,
+      "oid": "2.16.840.1.113883.3.464.1003.113.12.1074",
+      "cda_identifier": {
+        "_id": "62e7e11cb3c02532ac87640c",
+        "root": "1.3.6.1.4.1.115",
+        "extension": "62e3cca0d17af703587cfada"
+      }
+    }
+  ],
+  "encounters": [
+    {
+      "_id": "62e7e11cb3c02532ac87640d",
+      "codes": {
+        "SNOMEDCT": [
+          "10335000"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "Encounter",
+      "start_time": 1646326800,
+      "end_time": 1646330400,
+      "authorDateTime": null,
+      "description": "Office Visit",
+      "admitType": null,
+      "dischargeTime": 1646330400,
+      "dischargeDisposition": null,
+      "admitTime": 1646326800,
+      "oid": "2.16.840.1.113883.3.464.1003.110.12.1082",
+      "cda_identifier": {
+        "_id": "62e7e11cb3c02532ac87640e",
+        "root": "1.3.6.1.4.1.115",
+        "extension": "62e3cca0d17af703587cfadb"
+      }
+    },
+    {
+      "_id": "62e7e11cb3c02532ac87640f",
+      "codes": {
+        "CPT": [
+          "99203"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "Encounter",
+      "start_time": 1656856800,
+      "end_time": 1656860400,
+      "authorDateTime": null,
+      "description": "Office Visit",
+      "admitType": null,
+      "dischargeTime": 1656860400,
+      "dischargeDisposition": null,
+      "admitTime": 1656856800,
+      "oid": "2.16.840.1.113883.3.464.1003.101.12.1001",
+      "cda_identifier": {
+        "_id": "62e7e11cb3c02532ac876410",
+        "root": "1.3.6.1.4.1.115",
+        "extension": "62e3cca0d17af703587cfadc"
+      }
+    },
+    {
+      "_id": "62e7e11cb3c02532ac876411",
+      "codes": {
+        "CPT": [
+          "99203"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "Encounter",
+      "start_time": 1664805600,
+      "end_time": 1664809200,
+      "authorDateTime": null,
+      "description": "Office Visit",
+      "admitType": null,
+      "dischargeTime": 1664809200,
+      "dischargeDisposition": null,
+      "admitTime": 1664805600,
+      "oid": "2.16.840.1.113883.3.464.1003.101.12.1001",
+      "cda_identifier": {
+        "_id": "62e7e11cb3c02532ac876412",
+        "root": "1.3.6.1.4.1.115",
+        "extension": "62e3cca0d17af703587cfadd"
+      }
+    }
+  ],
+  "procedures" : [
+        {
+            "_id" : "5e746baa19b34ae080339b0b",
+            "codes" : {
+                "SNOMED-CT" : [
+                    "428371000124100"
+                ]
+            },
+            "mood_code" : "EVN",
+            "_type" : "Procedure",
+            "start_time" : 1646326800,
+            "end_time" : 1646326800,
+            "description" : "",
+            "anatomical_target" : null,
+            "oid" : "2.16.840.1.113883.3.117.1.7.1.207",
+            "status_code" : {
+                "HL7 ActStatus" : [
+                    "ordered",
+                    "performed"
+                ]
+            },
+            "cda_identifier" : {
+                "_id" :"5e746baa19b34ae080339b0c",
+                "root" : "1.3.6.1.4.1.115",
+                "extension" : "59ca3a3a63623904b4b9337a"
+            }
+        }
+    ],  
+	 
+ 
+
+  "insurance_providers": [
+    {
+      "_id": "62e7e11cb3c02532ac876417",
+      "codes": {
+        "SOP": [
+          "1"
+        ]
+      },
+      "mood_code": "EVN",
+      "_type": "InsuranceProvider",
+      "start_time": 1333294200,
+      "end_time": null,
+      "authorDateTime": null,
+      "oid": "2.16.840.1.113883.3.560.1.405"
+    }
+  ],
+  "addresses": [
+    {
+      "_id": "62e7e11cb3c02532ac876418",
+      "street": [
+        "249 Osbaldo Path Pine"
+      ],
+      "use": "HP",
+      "city": "Jalenport",
+      "state": "IN",
+      "zip": "46356",
+      "country": "US"
+    }
+  ],
+  "telecoms": [
+    {
+      "_id": "62e7e11cb3c02532ac876419",
+      "value": "tel:337-323-7566",
+      "use": "HP"
+    }
+  ],
+  "provider_performances": [
+    {
+      "_id": "62e7e11db3c02532ac87641c",
+      "end_date": null,
+      "provider_id": "62e7e116b3c02532ac876312",
+      "start_date": null
+    },
+    {
+      "_id": "62e7e11db3c02532ac87641d",
+      "start_date": null,
+      "end_date": null,
+      "provider_id": "5790a76d58989a5b18000002"
+    },
+    {
+      "_id": "62e7e11db3c02532ac87641e",
+      "start_date": null,
+      "end_date": null,
+      "provider_id": "62c675ebb3c0255b69f8557f"
+    }
+  ],
+  "measures": {
+    "hqmf_ids": [
+      "2C928082-7871-00DE-0178-890C248E04FE"
+    ]
+  }
+}
